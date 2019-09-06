@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Karan Kajla | Blog
+title: So Far Gone
 description: The personal blog of Karan Kajla
 ---
 

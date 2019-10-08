@@ -1,6 +1,6 @@
 ---
 layout: home
-title: So Far Gone
+title: Renaissance Man
 description: The personal blog of Karan Kajla
 ---
 

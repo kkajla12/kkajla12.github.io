@@ -2,7 +2,7 @@
 title: Don't Be an Absolutist
 summary: As you navigate the world and tackle the nuances of life, being absolute in your thinking can limit your perspective and keep you from exploring possibilities that could benefit your career, your relationships, your happiness, and so many other important things.
 categories: [life]
-draft: true
+draft: false
 ---
 
 This will be a short post about something I only recently realized about myself and my learnings from the realization. I'm not sure everyone will relate to it, but I know at least a few will. Either way, I hope everyone can take away something from the post.

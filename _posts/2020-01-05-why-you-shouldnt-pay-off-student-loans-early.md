@@ -1,6 +1,6 @@
 ---
 title: Why You Shouldn't Pay off Student Loans Early (...Well Not Necessarily)
-summary: Oct 8th, 2019
+summary: In this post, I want to talk about interesting concepts I think anyone with student loans (or any fixed-rate loan) must understand to answer this and other financial questions for themselves.
 categories: [personal finance]
 draft: false
 ---

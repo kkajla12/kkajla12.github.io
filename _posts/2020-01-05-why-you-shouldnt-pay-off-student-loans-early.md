@@ -2,7 +2,7 @@
 title: Why You Shouldn't Pay off Student Loans Early (...Well Not Necessarily)
 summary: Oct 8th, 2019
 categories: [personal finance]
-draft: true
+draft: false
 ---
 
 If you're like me, you probably graduated from college with a decent amount of student loan debt, and now you're slowly but surely paying it all off. While you are worried about paying it off, you have a stable income so making your monthly payments is very manageable. You might even be making (or considering making) extra payments to payoff your loans early, so you can be done with them ASAP. While doing so, you might be putting off investing for retirement (or not investing as much as you could) since your leftover income goes towards your extra loan payments. You're probably wondering, "is this the best strategy, or should I be doing something different?" In this post, I want to talk about interesting concepts I think anyone with student loans (or any fixed-rate loan) must understand to answer this and other financial questions for themselves.

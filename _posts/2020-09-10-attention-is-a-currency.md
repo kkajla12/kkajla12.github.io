@@ -2,7 +2,7 @@
 title: Attention is Now a Currency. Do You Have an Attention Budget?
 summary: Just as technology's evolution of payments and e-commerce disrupted our wallets and spending habits (think paying for things with the tap of a button on our phones), the evolution of information technology is disrupting our time and attention. Age-old money management principles like
 categories: [technology, life]
-draft: true
+draft: false
 ---
 
 Just as technology's evolution of payments and e-commerce disrupted our wallets and spending habits (i.e. paying for things with the tap of a button on our phones), the evolution of information technology is disrupting our time and attention habits. Age-old money management principles like budgeting, investing, and saving have helped some of us (and our bank accounts) weather the rise of [consumerism](https://en.wikipedia.org/wiki/Consumerism). However, I can't help but wonder whether or not we've been adequately prepared to manage our attention as innovations of the information age look to capture and monetize every idle second of our time. With today's largest corporations ushering in the dominance of the advertising model and offering their products to consumers seemingly for free, it feels like our attention has become a currency in exchange for the product. So I wonder: do you have an attention budget?

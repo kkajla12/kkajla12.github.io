@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+about: true
 ---
 
 I'm an entrepreneur and a software engineer at heart. I'm a Co-founder at [Warrant](https://warrant.dev), where we're building the infrastructure for authorization. Previously, I built products and analytics platforms at companies like AppLovin and AppFolio.

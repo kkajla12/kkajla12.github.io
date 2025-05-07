@@ -1,0 +1,71 @@
+---
+import Breadcrumbs from '@/components/Breadcrumbs.astro'
+import Link from '@/components/Link.astro'
+import PageHead from '@/components/PageHead.astro'
+import Layout from '@/layouts/Layout.astro'
+import { Image } from 'astro:assets'
+import ProfilePic from './profile-pic.jpg'
+---
+
+<Layout>
+  <PageHead slot="head" title="About" />
+  <Breadcrumbs items={[{ label: 'About', icon: 'lucide:info' }]} />
+
+  <section>
+    <div class="min-w-full">
+      <div class="prose mb-8">
+        <Image
+          src={ProfilePic}
+          alt="profile-picture"
+          height={200}
+          class="m-auto rounded object-cover"
+        />
+        <p class="mb-4">
+          I am a builder and an entrepreneur at heart. I enjoy building software
+          that makes life easier for humans.
+        </p>
+        <p class="mb-4">
+          I was previously a co-founder of <Link
+            href="https://warrant.dev"
+            class="text-foreground"
+            external
+            underline>Warrant</Link
+          >, where we built developer infrastructure for authorization. Warrant
+          was acquired by <Link
+            href="https://workos.com"
+            class="text-foreground"
+            external
+            underline>WorkOS</Link
+          > in 2024, where my co-founder and I led the launch of <Link
+            href="https://workos.com/fine-grained-authorization"
+            class="text-foreground"
+            external
+            underline>WorkOS Fine-Grained Authorization (FGA)</Link
+          >, which now serves tens of millions of permission checks for
+          companies every day.
+        </p>
+        <p class="mb-4">
+          Prior to Warrant, I built products and analytics platforms at
+          companies like <Link
+            href="https://applovin.com"
+            class="text-foreground"
+            external
+            underline>AppLovin</Link
+          > and <Link
+            href="https://appfolio.com"
+            class="text-foreground"
+            external
+            underline>AppFolio</Link
+          >. In my free time, I enjoy traveling, producing music, and playing
+          basketball or tennis. This blog will be about ideas I (and hopefully
+          you too) find interesting in life.
+        </p>
+
+        <!-- <h2 class="mb-4 text-2xl font-medium">Example Projects Listing</h2>
+        <div class="flex flex-col gap-4">
+          {projects.map((project) => <ProjectCard project={project} />)}
+        </div> -->
+      </div>
+    </div>
+  </section>
+</Layout>

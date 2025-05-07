@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1b2a" />
+      <stop offset="50%" stop-color="#1b263b" />
+      <stop offset="100%" stop-color="#0d1b2a" />
+    </linearGradient>
+    
+    <!-- Particle glow effect -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="630" fill="url(#bgGradient)" />
+  
+  <!-- Abstract code pattern -->
+  <g opacity="0.3">
+    <!-- Binary pattern -->
+    <text fill="#4cc9f0" font-family="monospace" font-size="18">
+      <tspan x="50" y="50">01001000 01100101 01101100 01101100 01101111</tspan>
+      <tspan x="50" y="80">01010111 01101111 01110010 01101100 01100100</tspan>
+      <tspan x="50" y="110">01010000 01110010 01101111 01100111 01110010</tspan>
+      <tspan x="50" y="140">01000001 01001001 01010011 01111001 01110011</tspan>
+      <tspan x="900" y="400">01001000 01100101 01101100 01101100 01101111</tspan>
+      <tspan x="900" y="430">01010111 01101111 01110010 01101100 01100100</tspan>
+      <tspan x="900" y="460">01010000 01110010 01101111 01100111 01110010</tspan>
+      <tspan x="900" y="490">01000001 01001001 01010011 01111001 01110011</tspan>
+    </text>
+  </g>
+  
+  <!-- Floating geometric elements -->
+  <g filter="url(#glow)">
+    <circle cx="400" cy="200" r="40" fill="#4cc9f0" opacity="0.8" />
+    <circle cx="800" cy="400" r="60" fill="#4361ee" opacity="0.7" />
+    <circle cx="300" cy="500" r="30" fill="#3a0ca3" opacity="0.6" />
+    <circle cx="900" cy="200" r="25" fill="#7209b7" opacity="0.5" />
+    <circle cx="600" cy="150" r="20" fill="#f72585" opacity="0.4" />
+    <circle cx="700" cy="500" r="35" fill="#4cc9f0" opacity="0.5" />
+  </g>
+  
+  <!-- Connection lines between elements -->
+  <g stroke-width="1" opacity="0.3">
+    <line x1="400" y1="200" x2="800" y2="400" stroke="#4cc9f0" />
+    <line x1="300" y1="500" x2="900" y2="200" stroke="#4361ee" />
+    <line x1="600" y1="150" x2="700" y2="500" stroke="#7209b7" />
+    <line x1="400" y1="200" x2="300" y2="500" stroke="#f72585" />
+    <line x1="800" y1="400" x2="900" y2="200" stroke="#3a0ca3" />
+    <line x1="600" y1="150" x2="400" y2="200" stroke="#4cc9f0" />
+    <line x1="700" y1="500" x2="800" y2="400" stroke="#f72585" />
+  </g>
+  
+  <!-- No text elements here as requested -->
+</svg>

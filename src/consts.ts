@@ -6,7 +6,7 @@ export const SITE: Site = {
   href: 'https://kajla.dev',
   author: 'karan',
   locale: 'en-US',
-  featuredPostCount: 2,
+  featuredPostCount: 3,
   postsPerPage: 3,
 }
 
